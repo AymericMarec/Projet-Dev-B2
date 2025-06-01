@@ -1,4 +1,4 @@
-# 🍽️ Système de Gestion de Restaurant
+# 🍽️ Customer Service - Projet Dev
 
 ## 📋 Vue d'ensemble du Projet
 Ce projet est un système complet de gestion de restaurant composé de quatre applications interconnectées qui optimisent le processus de commande et de service dans un restaurant. Le système comprend une application client pour les clients, un système d'affichage pour la cuisine, une application mobile pour les serveurs et une API centrale.
