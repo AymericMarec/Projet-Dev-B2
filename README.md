@@ -22,7 +22,7 @@ Ce projet est un système complet de gestion de restaurant composé de quatre ap
 
 ### 4. API Backend 🔧
 - **Repository**: [CustomersService-API](https://github.com/AymericMarec/CustomersService-API)
-- **Description**: L'API centrale qui gère tout le flux de données entre les différentes applications, traite les commandes et maintient la base de données. Elle gère également la distribution intelligente des commandes aux serveurs disponibles.
+- **Description**: L'API centrale qui gère tout le flux de données entre les différentes applications, traite les commandes et maintient la base de données. Elle gère également la distribution intelligente des commandes aux serveurs disponibles.Elle possède aussi une partie administrateur pour créer gérer le menu du restaurant
 - **Technologies**: Symfony, PHP, MySQL
 
 ## 🚀 Installation et Configuration
@@ -57,6 +57,9 @@ MYSQL_PASSWORD=symfony
 ```
 
 4. Pour initialiser le projet :
+
+Un choix va vous etre proposé , ecrivez "yes"
+
 ```bash
 make init
 ```
@@ -147,6 +150,10 @@ API_URL=http://IP:8000
 ```bash
 npm start
 ```
+
+Pour l'application serveur , vous pouvez , installer l'application expo Go puis scanner le QR code du terminal , pensez a bien changer l'ip dans le .env , en mettant l'ip en local de l'api et non localhost
+
+Vous pouvez aussi visitez http://localhost:8082 pour avoir la version web
 
 ## 🔄 Flux de Travail
 1. Les clients passent leurs commandes via l'application tablette
