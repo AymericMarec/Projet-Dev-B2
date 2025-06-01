@@ -6,7 +6,7 @@ Ce projet est un système complet de gestion de restaurant composé de quatre ap
 ## 🏗️ Architecture du Système
 
 ### 1. Application Client (Tablette) 📱
-- **Repository**: [CustomerService-Client](https://github.com/AymericMarec/CustomerService-Client)
+- **Repository**: [CustomerService-Client](https://github.com/AymericMarec/CustomersService-Client)
 - **Description**: Une application basée sur Electron pour les tablettes placées sur les tables du restaurant, permettant aux clients de parcourir le menu et de passer leurs commandes directement.
 - **Technologies**: Electron, JavaScript
 
@@ -16,7 +16,7 @@ Ce projet est un système complet de gestion de restaurant composé de quatre ap
 - **Technologies**: Electron, JavaScript
 
 ### 3. Application Mobile Serveur 👨‍💼
-- **Repository**: [CustomerService-Waiter](https://github.com/AymericMarec/CustomerService-Waiter)
+- **Repository**: [CustomerService-Waiter](https://github.com/AymericMarec/CustomersService-Waiter)
 - **Description**: Une application mobile pour les serveurs qui leur permet de recevoir uniquement les commandes qui leur sont assignées. L'API gère automatiquement la distribution des commandes aux serveurs disponibles.
 - **Technologies**: React Native, TypeScript
 
