@@ -33,6 +33,7 @@ Ce projet est un système complet de gestion de restaurant composé de quatre ap
 - Composer
 - MySQL
 - Git
+- Make
 
 ### Configuration de l'API Backend
 1. Cloner le repository de l'API :
@@ -55,17 +56,14 @@ MYSQL_USER=symfony
 MYSQL_PASSWORD=symfony
 ```
 
-4. Créer la base de données et exécuter les migrations :
+4. Pour initialiser le projet :
 ```bash
-composer install --no-interaction
-docker compose up -d
-php bin/console d:s:u --force
-php bin/console doctrine:fixtures:load
+make init
 ```
 
-5. Démarrer le serveur Symfony :
+5. Pour démarrer l'api :
 ```bash
-symfony server:start --no-tls
+make start
 ```
 
 ### Configuration de l'Application Client
