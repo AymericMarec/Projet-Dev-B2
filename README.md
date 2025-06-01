@@ -174,8 +174,11 @@ npm start
 - Points d'accès API sécurisés
 - Persistance des données
 
-## 🤝 Contribution
-Veuillez lire les fichiers README individuels des repositories pour les directives spécifiques de contribution.
+## Contacts
 
-## 📄 Licence
-Ce projet est propriétaire et confidentiel. Tous droits réservés.
+En cas de problème veuillez contacter une des personnes suivantes via discord :
+
+@yvel__
+@dianesdp
+@linuxo
+@mafraisefr2
