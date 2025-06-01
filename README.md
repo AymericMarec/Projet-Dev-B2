@@ -41,11 +41,6 @@ git clone https://github.com/AymericMarec/CustomersService-API.git
 cd CustomersService-API
 ```
 
-2. Installer les dépendances :
-```bash
-composer install
-```
-
 3. Créer le fichier .env.local :
 ```bash
 # Créer le fichier .env.local à la racine du projet
