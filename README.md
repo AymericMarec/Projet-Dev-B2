@@ -153,7 +153,7 @@ npm start
 
 Pour l'application serveur , vous pouvez , installer l'application expo Go puis scanner le QR code du terminal , pensez a bien changer l'ip dans le .env , en mettant l'ip en local de l'api et non localhost
 
-Vous pouvez aussi visitez http://localhost:8082 pour avoir la version web
+Vous pouvez aussi visitez http://localhost:8081/ReadyCommand pour avoir la version web
 
 ## 🔄 Flux de Travail
 1. Les clients passent leurs commandes via l'application tablette
